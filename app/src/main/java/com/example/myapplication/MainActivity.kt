@@ -55,7 +55,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-
     //funcion para obtener numero
     fun getNumber(v: View?): String? {
         if (ActivityCompat.checkSelfPermission(
@@ -116,6 +115,8 @@ class MainActivity : AppCompatActivity() {
             if ((grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
                 phoneNumber = getNumber(null)
                 Log.e("TAG", "Phone Number: $phoneNumber")
+
+
             } else {
                 // Permisos no concedidos
                 Log.e("TAG", "Permisos no concedidos")
