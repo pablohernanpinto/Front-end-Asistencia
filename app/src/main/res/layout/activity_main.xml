@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
 
-        android:text="Escanear Código QR"
+        android:text="Escanear QR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

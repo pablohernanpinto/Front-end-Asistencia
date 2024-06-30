@@ -9,6 +9,7 @@ appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.0"
 constraintlayout = "2.1.4"
+retrofit = "2.9.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -21,7 +22,9 @@ androidx-activity = { group = "androidx.activity", name = "activity", version.re
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 
 # ZXing library
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 zxing-android-embedded = "com.journeyapps:zxing-android-embedded:4.3.0"
+#retrofitt
 
 
 [plugins]
